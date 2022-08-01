@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ALightDesktopSearch.Core\ALightDesktopSearch.Core.csproj" />
+    <ProjectReference Include="..\ALightDesktopSearch.Entities\ALightDesktopSearch.Entities.csproj" />
+    <ProjectReference Include="..\ALightDesktopSearch.Util\ALightDesktopSearch.Util.csproj" />
+  </ItemGroup>
+
+</Project>
